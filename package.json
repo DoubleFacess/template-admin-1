@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-stisla",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "nuxt build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/composition-api": "^0.12.5",
+    "@nuxtjs/pwa": "^3.0.2",
+    "@toast-ui/vue-editor": "^2.4.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "chart.js": "^2.9.3",
+    "mapbox-gl": "^1.12.0",
+    "nuxt": "^2.14.5",
+    "nuxt-i18n": "^6.15.4",
+    "vue-chartjs": "^3.5.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "gh-pages": "^3.1.0"
+  }
+}
